@@ -62,7 +62,7 @@ p {
    }
 /* セクション間の余白 */
 .section　{
-      margin-top: 1px solid #D0A5A8; /* rose bud */
+      margin-top: 10px solid #D0A5A8; /* rose bud */
       padding-top: 20px;
       margin-top: 40px;
 　　}
