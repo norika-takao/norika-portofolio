@@ -43,7 +43,8 @@ body {
 /* ページの幅を整えるコンテンツ */
 .container {
       width: 85%;
-      margin: 100px auto; /* 上下余白たっぷり */
+      margin: 0 auto; /* 上下余白たっぷり */
+      padding: 0 20px;
 　　}
 
 /* 名前の見出し */
