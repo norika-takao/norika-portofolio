@@ -29,4 +29,40 @@ body {
       padding-tpp: 20px;
       margin-top: 40px;
     } 
- 
+/* 全体の設定 */
+body {
+      margin: 0;
+      front-family: "Helvetica Neue",Arial,
+      background-color: #F4F6F8; /* frost */
+      color: #111;
+   }
+
+/* ページの幅を整えるコンテンツ */
+.container {
+      width: 85%;
+      margin: 100px auto; /* 上下余白たっぷり */
+　　}
+
+/* 名前の見出し */
+h1 {
+      font-size: 48px;
+      font-weight: 300;
+      letter-spacing: 2px;
+   }     
+/* アクセントカラーをつけたい部分 */
+.accent {
+      color: #BF2529; /* red lips */
+   }
+
+/* 段落 */
+p {
+      font-size: 18px;
+      line-height: 1.6;
+   }
+/* セクション間の余白 */
+.section　{
+      margin-top: 1px solid #D0A5A8; /* rose bud */
+      padding-top: 20px;
+      margin-top: 40px;
+　　}
+
