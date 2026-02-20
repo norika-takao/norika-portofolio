@@ -82,3 +82,40 @@ p {
       margin-top: 100px;
       margin-bottom: 80px;
     }
+/* 全体リセット */
+body {
+      margin: 0;
+      padding: 0;
+      background-color: #f8f8ff;
+      font-family: "HiraKakuProN-W6","Hiragino Kaku Gothic ProN","Yu Gothic",sans-serif;
+     }
+
+/* 共通写真エリア */
+photo {
+      margin: 120px auto;　　/* 上下余白たっぷり */
+      padding: 0 60px;  /* ページ左右余白 */
+     }
+.photo img {
+      width: 100%;
+      height: auto;
+      display: block;
+      box-shadow: 0 20px 50px rgba (0,0,0,0,08);
+     }
+
+/* 横写真（中央配置） */
+.landscape {
+      max-width: 900px;
+      margin-left: auto;
+      margin-right: auto;
+     }
+
+/* 縦写真（右寄せ） */
+.portrait {
+      display: flex;
+      justify-content: fiex-end;
+      
+     }
+
+.portrait {
+      max-width: 400px;
+}
