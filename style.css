@@ -1,129 +1,62 @@
-body {
-      margin: 0;
-      font-family: "Helvetica Name", Arial, sans-serif;
-      background-color: #F0F5F8; /* frost */
+/ * ===== パリ雑誌風 ===== * /
+body{
+      font-family: "Helvetica Neue" , Arial ,sana-serif;
+      background-color: #ffffff;
       color: #111;
-    }
-
-    .container {
-      width: 90%;
-      margin-left: 30px; 
-      margin-right:0;
-      padding:0;
-    }
-
-    h1 {
-      font-size: 48px;
-      font-weight: 300;
-      letter-spacing: 2px;
-    }
-
-    .accent {
-      color: #BF2529; /* red lips */
-    }
-
-    .section {
-      margin-top: 120px;
-    }
-
-    .card {
-      border-top: 1px solid #D0A5A8; /* rose bud */
-      padding-tpp: 20px;
-      margin-top: 40px;
-    } 　
-
-/* 全体の設定 */
-body {
-      margin: 0;
-      front-family: "Helvetica Neue",Arial,
-      background-color: #F4F6F8; /* frost */
-      color: #111;
- 　  }
-
-/* ページの幅を整えるコンテンツ */
-.container {
-      width: 85%;
-      margin: 0 auto; /* 上下余白たっぷり */
-      padding: 0 20px;
-　　}
-
-/* 名前の見出し */
-h1 {
-      font-size: 48px;
-      font-weight: 300;
-      letter-spacing: 2px;
-   }     
-/* アクセントカラーをつけたい部分 */
-.accent {
-      color: #BF2529; /* red lips */
-   }
-
-/* 段落 */
-p {
-      font-size: 18px;
-      line-height: 1.6;
-   }
-/* セクション間の余白 */
-.section　{
-      margin-top: 10px solid #D0A5A8; /* rose bud */
-      padding-top: 20px;
-      margin-top: 40px;
-　　}
-
-/* ページ全体のコンテンツ */
-.container{
-      width: 85%;
-      margin: 50px 0 0 40px;
+      line-height: 1.9;
+      marign: 0;
       padding: 0;
-    }
-
-/* セクション間の縦横幅 */
-.section{
-      margin-top: 100px;
-      margin-bottom: 80px;
-    }
-/* 全体リセット */
-body {
-      margin: 0;
-      padding: 0;
-      background-color: #f8f8ff;
-      font-family: "HiraKakuProN-W6","Hiragino Kaku Gothic ProN","Yu Gothic",sans-serif;
-     }
-
-/* 共通写真エリア */
-photo {
-      margin: 120px auto;　　/* 上下余白たっぷり */
-      padding: 0 60px;  /* ページ左右余白 */
-     }
-.photo img {
-      width: 100%;
-      height: auto;
-      display: block;
-      box-shadow: 0 20px 50px rgba (0,0,0,0,08);
-     }
-
-/* 横写真（中央配置） */
-.landscape {
-      max-width: 900px;
-      margin-left: auto;
-      margin-right: auto;
-     }
-
-/* 縦写真（右寄せ） */
-.portrait {
-      display: flex;
-      justify-content: fiex-end;
-      
-     }
-
-.portrait {
-      max-width: 400px;
 }
-/* 写真サイズ */
+
+/* Header */
+
+h1 {
+      font-size: 60px;
+      font-weight: 200;
+      letter-spacing: 6px;
+      text-align: center;
+      margin-top: 100px;
+}
+h2 {
+      font-size: 18px;
+      font-weight: 400px;
+      lettre-spacing: 3px;
+      margin-bottom: 80px;
+      text-align: center;
+}
+
+/* Section spacing */
+
+.section {
+      margin-top: 180px;  
+}
+
+/* Card layout */
+.card {
+      max-widht: 900px;
+      margin: 0 auto 140px auto;
+      text-align: left;
+}
+
+/* Imagn */
+
 .card img {
-      width: 100%;
-      max-width: 700px;
-      height: auto;
+      weight: 100%;
+      max-widht: 900px;
       display: block;
-      margin-top: 20px;
+      margin: 60px auto;
+}
+
+/* Text */
+.card h3 {
+      font-size: 14px;
+      lattr-spacing:2px;
+      font-weight: 500;
+}
+
+.card p {
+      font-size: 13px;
+      max-width: 500px;
+      margin-top: 10px;
+      color: #555;
 }
