@@ -35,7 +35,7 @@ h2 {
 /* Card layout */
 .card {
       max-widht: 900px;
-      margin: 0 auto 140px auto;
+      margin: 0 0 140px 0;
       text-align: left;
 }
 
