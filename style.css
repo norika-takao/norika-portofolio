@@ -5,8 +5,8 @@ body{
       color: #111;
       line-height: 1.9;
       marign: 0;
-      padding-left: 12%;
-      padding-right: 4%;
+      padding-left: 15%;
+      padding-right: 5%;
 }
 
 /* Header */
@@ -36,7 +36,6 @@ h2 {
 .card {
       max-widht: 900px;
       margin: 0 0 140px 0;
-      text-align: left;
 }
 
 /* Imagn */
