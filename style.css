@@ -119,3 +119,11 @@ photo {
 .portrait {
       max-width: 400px;
 }
+/* 写真サイズ */
+.card img {
+      width: 100%;
+      max-width: 700px;
+      height: auto;
+      display: block;
+      margin-top: 20px;
+}
